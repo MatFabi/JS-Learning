@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: linear-gradient(to top right, #b9b9b9, #1c3832);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	min-height: 100vh;
+}
+
+.clock{
+	width:300px;
+	height:300px;
+	border:10px solid white;
+	border-radius:50%;
+	position: relative;
+}
+.clockHand{
+	top:50%;
+	height:5px;
+	transform-origin: 100% 50%;
+	background-color:white;
+	position: absolute;
+}
+.hour{
+	width:30%;
+	left:20%
+}
+.min{
+	width:40%;
+	left:10%;
+}
+.sec{
+	width:45%;
+	left:5%;
+}
+.numeric{
+	margin-top:40px;
+}

@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+:root{
+	--colors:#ffffff;
+	--padding:10px;
+	--blur:0px;
+	
+}
+.container{
+	background: linear-gradient(to bottom, #b9b9b9, #1c3832);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	min-height: 100vh;
+}
+img{
+	padding: var(--padding);
+	background-color:var(--colors);
+	filter:blur(var(--blur))
+}
